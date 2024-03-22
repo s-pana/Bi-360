@@ -1,5 +1,5 @@
 Certainly! Here's a markdown version of the text suitable for a GitHub repository:
-chapter-11-bi360-10-compressed.pdf
+[chapter-11-bi360-10-compressed.pdf](https://github.com/s-pana/Bi-360/blob/main/chapter-11-bi360-10-compressed.pdf)
 ```markdown
 # Business Insights 360 Project for AtliQ Hardware in Power BI
 
