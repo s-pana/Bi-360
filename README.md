@@ -1,35 +1,41 @@
-Certainly! Here's a markdown version of the text suitable for a GitHub repository:
-[chapter-11-bi360-10-compressed.pdf](https://github.com/s-pana/Bi-360/blob/main/chapter-11-bi360-10-compressed.pdf)
-```markdown
-# Business Insights 360 Project for AtliQ Hardware in Power BI
+# AtliQ Hardware: Business Insights 360 (Power BI)
 
-## Overview
+A business intelligence dashboard suite built in Power BI to monitor, analyze, and optimize operations across all business units for AtliQ Hardware.
 
-Welcome! This project focuses on providing comprehensive business insights for AtliQ Hardware using Power BI. AtliQ Hardware is a leading company in the hardware industry, selling products like PCs, mice, printers, and others to its customers. As the company experienced substantial growth, there arose a need for deeper insights into their data, especially in regions where challenges were encountered. Our task was to create reports and dashboards to facilitate data-driven decision-making.
+📄 **[View Full Project PDF Report](chapter-11-bi360-10-compressed.pdf)**
 
-## Reports and Dashboards
+---
 
-1) **Finance View**: This view encompasses the complete P&L statement, Net sales over time, and Top products and customers by net sales.
-   
-2) **Sales View**: Dive into customer performance, product performance, and performance metrics.
-   
-3) **Marketing View**: Explore region, market, and product performance, along with performance metrics by division, net sales, and gross margin.
+## 📌 Executive Summary
 
-4) **Supply Chain View**: Conceptualize sustainable supply chain management with this comprehensive view.
+Rapid global expansion led to data silos and blind spots across AtliQ Hardware's regional markets. This project unifies transactional enterprise data into actionable, role-based dashboards to support data-driven decision-making across executive, financial, and operational teams.
 
-5) **Executive View**: This aggregate view is crucial for CEO, CTO, and other management personnel. It provides decision-makers with all necessary information for informed choices.
+---
 
+## 📊 Dashboard Modules
 
+* **Finance View:** P&L statements, Net Sales trends over time, Gross Margin breakdown, and top products/customers by revenue contribution.
+* **Sales View:** Customer performance matrices, net sales vs. target variances, and unit economics across sales channels.
+* **Marketing View:** Divisional performance analysis, market share trends, and region-level Gross Margin % tracking.
+* **Supply Chain View:** Forecast accuracy, net error, absolute error, and key indicators to prevent stockouts and inventory bloat.
+* **Executive View:** High-level dashboard aggregating enterprise-level KPIs, market share metrics, and consolidated revenue trajectories for C-suite leadership.
 
-## Steps Followed in Power BI
+---
 
-- Data loaded from SQL Server.
-- Creation of calculated columns and measures for data manipulation.
-- Data Modeling using Star Schema & Snowflake Schema.
-- Implementation of Slicers, filters, and KPI Indicators.
-- Leveraged Data Validation techniques.
-- Deployment on Power BI Services.
-- Utilized Conditional Formatting on visuals.
+## 🛠️ Technical Implementation
 
+1. **Data Ingestion:** Extracted raw transactional data from MySQL database using optimized SQL queries.
+2. **Data Modeling:** Built an optimized Star/Snowflake schema establishing clear relationships between fact and dimension tables.
+3. **DAX Calculations:** Engineered dynamic measures for time-intelligence, target variance tracking, and complex P&L metrics.
+4. **Interactive UI/UX:** Integrated dynamic slicers, KPI status indicators, bookmarks, tooltips, and conditional formatting.
+5. **Data Validation:** Verified calculation results directly against SQL database records to ensure zero reporting drift.
+6. **Deployment:** Published to Power BI Service with automated scheduled refreshes and role-based access.
 
-Feel free to adjust or expand upon this text as needed for your GitHub repository!
+---
+
+## 📁 Repository Structure
+
+```text
+├── chapter-11-bi360-10-compressed.pdf   # Complete project documentation and slide deck
+├── README.md                            # Project overview and documentation
+└── reports/                             # Power BI report files (.pbix)
